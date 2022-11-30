@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestAppFor3205Team</string>
+
+    <string name="search_hint">Search…</string>
+    <string name="search">Search</string>
+    <string name="download">Download</string>
+    <string name="zero">0</string>
+    <string name="error">Oh… Can\'t load data \n Try to refresh</string>
+    <string name="empty">Seems like nothing is found</string>
+
+    <string name="save_menu_item">Save repository</string>
+    <string name="download_menu_item">Download repository(zip)</string>
+
+    <string name="permissionGranted">Now you can download file :)</string>
+    <string name="permissionDenied">Didn\'t get permission to upload files :(</string>
+</resources>

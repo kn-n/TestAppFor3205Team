@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.148" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/bg_radius_10.xml" value="0.5" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/bg_radius_50.xml" value="0.1" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_app.xml" value="0.23" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_app_background.xml" value="0.23" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_app_foreground.xml" value="0.23" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_arrow_back_24px.xml" value="0.2525" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_code_20px.xml" value="0.148" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_download_20px.xml" value="0.148" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_download_24px.xml" value="0.2525" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_download_done_20px.xml" value="0.148" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_download_done_24px.xml" value="0.122" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_launcher_background.xml" value="0.148" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_menu_24px.xml" value="0.255" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_refresh_40px.xml" value="0.2525" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_save_selector.xml" value="0.122" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_search_24px.xml" value="0.148" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/ic_star_20px.xml" value="0.143" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/drawable/launch_screen.xml" value="0.1" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/layout/item_repository.xml" value="0.5" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/layout/item_view_pager.xml" value="0.2658514492753623" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/menu/menu_options.xml" value="0.30512820512820515" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/mipmap-anydpi-v26/ic_app.xml" value="0.241" />
+        <entry key="..\:/projects/TestAppFor3205Team/app/src/main/res/mipmap-anydpi-v26/ic_app_round.xml" value="0.241" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="true" project-jdk-name="12" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

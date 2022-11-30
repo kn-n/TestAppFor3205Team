@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //margin dimens
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+
+    //text size dimens
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+
+    //radius dimens
+    <dimen name="radius_50dp">50dp</dimen>
+    <dimen name="radius_10dp">10dp</dimen>
+
+    //size dimens
+    <dimen name="size_60dp">60dp</dimen>
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="size_25dp">25dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_3dp">3dp</dimen>
+    <dimen name="size_1dp">1dp</dimen>
+</resources>

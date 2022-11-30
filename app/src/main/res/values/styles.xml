@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Launcher" parent="Theme.TestAppFor3205Team">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="mainText">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="subText">
+        <item name="android:textColor">?attr/colorSecondaryVariant</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="accentText">
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="title_size_20sp">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:fontFamily">"@font/open_sans_semibold"</item>
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+    </style>
+    
+    <style name="mainText.size_15sp">
+        <item name="android:textSize">@dimen/text_size_15sp</item>
+        <item name="android:textColorHint">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <style name="mainText.size_14sp">
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+    </style>
+
+    <style name="mainText.size_12sp">
+        <item name="android:textSize">@dimen/text_size_12sp</item>
+    </style>
+
+    <style name="subText.size_18sp">
+        <item name="android:textSize">@dimen/text_size_18sp</item>
+    </style>
+
+    <style name="subText.size_11sp">
+        <item name="android:textSize">@dimen/text_size_11sp</item>
+    </style>
+
+    <style name="accentText.size_14sp">
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+    </style>
+
+    <style name="popupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+</resources>

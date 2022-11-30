@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/repo_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_20dp"
+    android:layout_marginBottom="@dimen/margin_10dp"
+    android:background="@drawable/bg_radius_10"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginEnd="@dimen/margin_5dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/size_25dp"
+            android:layout_height="@dimen/size_25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_app_background" />
+
+        <TextView
+            android:id="@+id/nickname"
+            style="@style/mainText.size_14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/margin_5dp"
+            android:layout_weight="1"
+            tools:text="knn" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="@dimen/size_25dp"
+            android:layout_height="@dimen/size_25dp"
+            android:src="@drawable/ic_menu_24px"
+            app:tint="?attr/colorSecondaryVariant" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/repositoryName"
+        style="@style/accentText.size_14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_10dp"
+        android:ellipsize="start"
+        android:maxLines="1"
+        tools:text="kn-n/MyWeather" />
+
+    <TextView
+        android:id="@+id/repositoryDescription"
+        style="@style/subText.size_11sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_10dp"
+        android:layout_marginVertical="@dimen/margin_5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="Простое приложение о погоде с использованием API open meteo. Kotlin, Kotlin Coroutines, Toothpick, Retro..."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_20px"
+            app:tint="?attr/colorSecondaryVariant" />
+
+        <TextView
+            android:id="@+id/stars"
+            style="@style/mainText.size_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/zero"/>
+
+        <ImageView
+            android:id="@+id/icon_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_code_20px"
+            android:layout_marginStart="@dimen/margin_10dp"
+            app:tint="?attr/colorSecondaryVariant" />
+
+        <TextView
+            android:id="@+id/language"
+            style="@style/mainText.size_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            tools:text="Kotlin"/>
+    </LinearLayout>
+</LinearLayout>
